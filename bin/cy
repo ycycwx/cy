@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+const cac = require('cac');
+
+const defaults = require('../command/default');
+const add = require('../command/add');
+const reset = require('../command/reset');
+const list = require('../command/list');
+const move = require('../command/move');
+const copy = require('../command/copy');
+
+const cli = cac();
+
+cli.command('*', {desc: 'select files'}, defaults);
+cli.command('add', {alias: 'a', desc: 'add select files'}, add);
+cli.command('clear', {alias: 'reset', desc: 'reset files'}, reset);
+cli.command('list', {alias: ['l', 'ls', 'show'], desc: 'show files list'}, list);
+cli.command('move', {alias: ['mv', 'm'], desc: 'move files'}, move);
+cli.command('copy', {alias: ['cp', 'c'], desc: 'copy files'}, copy);
+
+cli.parse();
