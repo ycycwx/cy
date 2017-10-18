@@ -1,6 +1,6 @@
 {
-    "name": "cy",
-    "version": "0.0.1",
+    "name": "cyjs",
+    "version": "0.0.2",
     "description": "A simple C-c C-v tool in command line.",
     "bin": {
         "cy": "./bin/cy"
@@ -9,7 +9,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "yytcjcy@gmail.com",
-    "license": "ISC",
+    "license": "MIT",
     "dependencies": {
         "cac": "^4.2.2",
         "chalk": "^2.1.0",

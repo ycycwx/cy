@@ -13,12 +13,18 @@ module.exports = input => {
         return;
     }
 
+    let valid = input.every(file => {
+        let exist = fs.existsSync(file);
+        !exist && warn(`"${file}" is not exist`);
+        return exist;
+    });
+
+    if (!valid) {
+        warn('You must input existing path');
+        return;
+    }
+
     input
-        .filter(file => {
-            let exist = fs.existsSync(file);
-            !exist && warn(`"${file}" is not exist`);
-            return exist;
-        })
         .map(file => fs.realpathSync(file))
         .map(file => db.add(file));
 
