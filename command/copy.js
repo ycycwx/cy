@@ -1,24 +1,40 @@
 /**
- * @file copy.js
+ * @file Copy.js
  * @author ycy
  */
 
 const path = require('path');
 const {warn} = require('../core/util');
-let db = require('../core/db');
+const db = require('../core/db');
+const Base = require('./Base');
 
-module.exports = input => {
-    if (input.length !== 1) {
-        warn('You must add file or folder at least one');
-        return;
+module.exports = class Copy extends Base {
+
+    static get name() {
+        return 'copy';
     }
 
-    if (db.length <= 0) {
-        warn('No file to commit');
-        return;
+    static get alias() {
+        return ['cp', 'c'];
     }
 
-    db.copy(path.resolve(process.cwd(), input[0]));
-    db.commit();
-};
+    static get desc() {
+        return 'copy files';
+    }
+
+    commandHandler() {
+        if (this.input.length !== 1) {
+            warn('You must add file or folder at least one');
+            return;
+        }
+
+        if (db.length <= 0) {
+            warn('No file to commit');
+            return;
+        }
+
+        db.copy(path.resolve(process.cwd(), input[0]));
+        db.commit();
+    }
+}
 

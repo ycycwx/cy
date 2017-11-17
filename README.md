@@ -51,6 +51,10 @@ cy move c
 # c/y2
 ls
 
+# if you want to default add file named "list" or other command, use `--ignore` or `-i` flag
+cy -i list
+cy --ignore a
+
 # more command
 cy --help
 ```

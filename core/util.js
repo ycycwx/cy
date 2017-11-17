@@ -11,3 +11,13 @@ exports.warn = msg => console.error(red(`${prefix} [ERROR] ${msg}`));
 
 exports.tip = msg => console.log(yellow(`${prefix} ${msg}`));
 
+const format = Target => ([
+    Target.name,
+    {
+        alias: Target.alias,
+        desc: Target.desc,
+    },
+    (...args) => Reflect.construct(Target, args).handle
+]);
+
+exports.install = cli => command => cli.command(...format(command));
