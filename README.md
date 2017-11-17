@@ -4,6 +4,13 @@ A simple C-c C-v tool in command line.
 
 Inspired by MACOS built-in Command-c Command-v.
 
+## Install
+``` bash
+npm i -g cyjs
+
+yarn global add cyjs
+```
+
 ## Usage
 
 ``` bash
