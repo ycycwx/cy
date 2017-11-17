@@ -33,7 +33,7 @@ module.exports = class Move extends Base {
             return;
         }
 
-        db.move(path.resolve(process.cwd(), input[0]));
+        db.move(path.resolve(process.cwd(), this.input[0]));
         db.commit();
     }
 }

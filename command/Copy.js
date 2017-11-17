@@ -33,7 +33,7 @@ module.exports = class Copy extends Base {
             return;
         }
 
-        db.copy(path.resolve(process.cwd(), input[0]));
+        db.copy(path.resolve(process.cwd(), this.input[0]));
         db.commit();
     }
 }
