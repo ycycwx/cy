@@ -5,9 +5,14 @@ A simple C-c C-v tool in command line.
 Inspired by MACOS built-in Command-c Command-v.
 
 ## Install
+
+Use npm
 ``` bash
 npm i -g cyjs
+```
 
+Or use yarn
+``` bash
 yarn global add cyjs
 ```
 
