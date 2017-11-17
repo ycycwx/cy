@@ -1,12 +1,28 @@
 /**
- * @file reset.js
+ * @file Reset.js
  * @author ycy
  */
 
-let db = require('../core/db');
+const db = require('../core/db');
+const Base = require('./Base');
 
-module.exports = () => {
-    db.reset();
-    db.commit();
-};
+module.exports = class Reset extends Base {
+
+    static get name() {
+        return 'reset';
+    }
+
+    static get alias() {
+        return 'clear';
+    }
+
+    static get desc() {
+        return 'reset files';
+    }
+
+    commandHandler() {
+        db.reset();
+        db.commit();
+    }
+}
 

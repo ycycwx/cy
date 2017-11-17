@@ -1,9 +1,9 @@
 {
     "name": "cyjs",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "description": "A simple C-c C-v tool in command line.",
     "bin": {
-        "cy": "./bin/cy"
+        "cy": "./bin/cy.js"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,8 @@
     "author": "yytcjcy@gmail.com",
     "license": "MIT",
     "dependencies": {
-        "cac": "^4.2.2",
-        "chalk": "^2.1.0",
+        "cac": "^4.2.4",
+        "chalk": "^2.3.0",
         "fs-extra": "^4.0.2"
     }
 }
