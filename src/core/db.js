@@ -3,10 +3,10 @@
  * @author ycy
  */
 
-const fs = require('fs-extra');
-const path = require('path');
-const os = require('os');
-const {warn} = require('../core/util');
+import * as fs from 'fs-extra';
+import * as path from 'path';
+import * as os from 'os';
+import {tip, warn} from '../core/util';
 
 const filePath = path.resolve(os.homedir(), '.cy');
 const encode = 'utf8';
@@ -55,7 +55,9 @@ class DataBase {
 
         this.dump().map(file => {
             try {
-                fs.copySync(file, path.resolve(dir, path.basename(file)));
+                let target = path.resolve(dir, path.basename(file));
+                tip(`Copying file "${file}" to "${target}"`);
+                fs.copySync(file, target);
             }
             catch (error) {
                 warn(
@@ -78,7 +80,9 @@ class DataBase {
 
         this.dump().map(file => {
             try {
-                fs.moveSync(file, path.resolve(dir, path.basename(file)));
+                let target = path.resolve(dir, path.basename(file));
+                tip(`Moving file "${file}" to "${target}"`);
+                fs.moveSync(file, target);
             }
             catch (error) {
                 warn(
@@ -106,4 +110,4 @@ class DataBase {
     }
 }
 
-module.exports = new DataBase();
+export default new DataBase();

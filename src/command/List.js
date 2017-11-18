@@ -3,11 +3,11 @@
  * @author ycy
  */
 
-const db = require('../core/db');
-const {tip} = require('../core/util');
-const Base = require('./Base');
+import db from '../core/db';
+import {print} from '../core/util';
+import Base from './Base';
 
-module.exports = class List extends Base {
+export default class List extends Base {
 
     static get name() {
         return 'list';
@@ -25,6 +25,6 @@ module.exports = class List extends Base {
         db
             .dump()
             .map((file, index) => `${index + 1}. ${file}`)
-            .map(tip);
+            .map(print);
     }
 }

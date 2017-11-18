@@ -3,12 +3,12 @@
  * @author ycy
  */
 
-const fs = require('fs');
-const {warn} = require('../core/util');
-const db = require('../core/db');
-const Base = require('./Base');
+import * as fs from 'fs';
+import {warn} from '../core/util';
+import db from '../core/db';
+import Base from './Base';
 
-module.exports = class Add extends Base {
+export default class Add extends Base {
 
     static get name() {
         return 'add';

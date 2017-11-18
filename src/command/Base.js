@@ -3,11 +3,11 @@
  * @author ycy
  */
 
-const fs = require('fs');
-const {warn} = require('../core/util');
-const db = require('../core/db');
+import * as fs from 'fs';
+import {warn} from '../core/util';
+import db from '../core/db';
 
-module.exports = class Base {
+export default class Base {
 
     static get name() {
         return null;
@@ -56,7 +56,7 @@ module.exports = class Base {
     }
 
     defaultHandler() {
-        let input = this.input; 
+        let input = this.input;
 
         if (input.length <= 0) {
             warn('You must add file or folder at least one');
@@ -86,5 +86,6 @@ module.exports = class Base {
     }
 
     commandHandler() {
+        this.defaultHandler();
     }
 }

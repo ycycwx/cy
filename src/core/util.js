@@ -3,13 +3,15 @@
  * @author ycy
  */
 
-const {red, yellow} = require('chalk');
+import {red, yellow, green} from 'chalk';
 
 const prefix = '[cy]';
 
-exports.warn = msg => console.error(red(`${prefix} [ERROR] ${msg}`));
+export const warn = msg => console.error(red(`${prefix} [ERROR] ${msg}`));
 
-exports.tip = msg => console.log(yellow(`${prefix} ${msg}`));
+export const tip = msg => console.log(yellow(`${prefix} ${msg}`));
+
+export const print = msg => console.log(green(`${prefix} ${msg}`));
 
 const format = Target => ([
     Target.name,
@@ -20,4 +22,4 @@ const format = Target => ([
     (...args) => new Target(...args).handle
 ]);
 
-exports.install = cli => command => cli.command(...format(command));
+export const install = cli => command => cli.command(...format(command));

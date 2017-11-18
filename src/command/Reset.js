@@ -3,10 +3,10 @@
  * @author ycy
  */
 
-const db = require('../core/db');
-const Base = require('./Base');
+import db from '../core/db';
+import Base from './Base';
 
-module.exports = class Reset extends Base {
+export default class Reset extends Base {
 
     static get name() {
         return 'reset';

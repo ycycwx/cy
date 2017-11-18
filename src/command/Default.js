@@ -3,12 +3,12 @@
  * @author ycy
  */
 
-const fs = require('fs');
-const {warn} = require('../core/util');
-const db = require('../core/db');
-const Base = require('./Base');
+import * as fs from 'fs';
+import {warn} from '../core/util';
+import db from '../core/db';
+import Base from './Base';
 
-module.exports = class Default extends Base {
+export default class Default extends Base {
 
     static get name() {
         return '*';
@@ -16,35 +16,5 @@ module.exports = class Default extends Base {
 
     static get desc() {
         return 'select files';
-    }
-
-    commandHandler() {
-        let input = this.input;
-
-        if (input.length <= 0) {
-            warn('You must add file or folder at least one');
-            return;
-        }
-
-        let {valid, invalid} = input.reduce(
-            (group, file) => {
-                let key = fs.existsSync(file) ? 'valid' : 'invalid';
-                group[key].push(file);
-                return group;
-            },
-            {valid: [], invalid: []}
-        );
-
-        if (invalid.length > 0) {
-            warn(`Files ${invalid.join()} are not existed.`);
-        }
-
-        db.reset();
-
-        valid
-            .map(file => fs.realpathSync(file))
-            .map(file => db.add(file));
-
-        db.commit();
     }
 }
