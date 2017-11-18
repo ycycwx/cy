@@ -3,12 +3,12 @@
  * @author ycy
  */
 
-const path = require('path');
-const {warn} = require('../core/util');
-const db = require('../core/db');
-const Base = require('./Base');
+import * as path from 'path';
+import {warn} from '../core/util';
+import db from '../core/db';
+import Base from './Base';
 
-module.exports = class Move extends Base {
+export default class Move extends Base {
 
     static get name() {
         return 'move';
@@ -34,6 +34,10 @@ module.exports = class Move extends Base {
         }
 
         db.move(path.resolve(process.cwd(), this.input[0]));
+
+        // reset db after move
+        db.reset();
+
         db.commit();
     }
 }

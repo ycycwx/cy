@@ -1,14 +1,18 @@
 #!/usr/bin/env node
+/**
+ * @file cy.js
+ * @author ycy
+ */
 
 var cac = require('cac');
 var install = require('../lib/core/util').install;
 
-var Default = require('../lib/command/Default');
-var Add = require('../lib/command/Add');
-var Reset = require('../lib/command/Reset');
-var List = require('../lib/command/List');
-var Move = require('../lib/command/Move');
-var Copy = require('../lib/command/Copy');
+var Default = require('../lib/command/Default').default;
+var Add = require('../lib/command/Add').default;
+var Reset = require('../lib/command/Reset').default;
+var List = require('../lib/command/List').default;
+var Move = require('../lib/command/Move').default;
+var Copy = require('../lib/command/Copy').default;
 
 var cli = cac();
 var wrap = install(cli);
