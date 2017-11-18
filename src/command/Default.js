@@ -3,9 +3,6 @@
  * @author ycy
  */
 
-import * as fs from 'fs';
-import {warn} from '../core/util';
-import db from '../core/db';
 import Base from './Base';
 
 export default class Default extends Base {

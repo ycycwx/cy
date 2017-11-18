@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+/**
+ * @file cy.js
+ * @author ycy
+ */
 
 var cac = require('cac');
 var install = require('../lib/core/util').install;

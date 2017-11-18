@@ -29,9 +29,7 @@ export default class Base {
     }
 
     handle() {
-        let input = this.input;
-        let flags = this.flags;
-        if (flags.i) {
+        if (this.flags.i) {
             this.handleIgnores();
             this.defaultHandler();
             return;
@@ -45,13 +43,13 @@ export default class Base {
         let flags = this.flags;
 
         if (flags.i !== true) {
-            this.input.push(flags.i);
+            input.push(flags.i);
         }
 
         let cmd = process.argv[2];
         let {name, alias} = this.constructor;
         if (cmd === name || [].concat(alias).includes(cmd)) {
-            this.input.push(cmd);
+            input.push(cmd);
         }
     }
 
