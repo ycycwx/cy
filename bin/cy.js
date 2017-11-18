@@ -1,19 +1,19 @@
 #!/usr/bin/env node
 
-const cac = require('cac');
-const {install} = require('../core/util');
+var cac = require('cac');
+var install = require('../lib/core/util').install;
 
-const Default = require('../command/Default');
-const Add = require('../command/Add');
-const Reset = require('../command/Reset');
-const List = require('../command/List');
-const Move = require('../command/Move');
-const Copy = require('../command/Copy');
+var Default = require('../lib/command/Default');
+var Add = require('../lib/command/Add');
+var Reset = require('../lib/command/Reset');
+var List = require('../lib/command/List');
+var Move = require('../lib/command/Move');
+var Copy = require('../lib/command/Copy');
 
-const cli = cac();
-const wrap = install(cli);
+var cli = cac();
+var wrap = install(cli);
 
-const ignore = {alias: 'i', desc: 'ignore command'};
+var ignore = {alias: 'i', desc: 'ignore command'};
 
 wrap(Default).option('ignore', ignore);
 wrap(Add);

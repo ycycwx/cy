@@ -17,7 +17,7 @@ const format = Target => ([
         alias: Target.alias,
         desc: Target.desc,
     },
-    (...args) => Reflect.construct(Target, args).handle
+    (...args) => new Target(...args).handle
 ]);
 
 exports.install = cli => command => cli.command(...format(command));
