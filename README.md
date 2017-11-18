@@ -6,6 +6,8 @@ Inspired by MACOS built-in Command-c Command-v.
 
 ## Install
 
+Support >= nodejs v4.
+
 Use npm
 ``` bash
 npm i -g cyjs
