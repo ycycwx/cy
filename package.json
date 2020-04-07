@@ -20,17 +20,18 @@
     "dependencies": {
         "cac": "^4.4.4",
         "chalk": "^4.0.0",
-        "fs-extra": "^4.0.3"
+        "fs-extra": "^9.0.0"
     },
     "devDependencies": {
-        "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.7.0",
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.9.0",
+        "@babel/preset-env": "^7.9.0",
         "rimraf": "^3.0.2"
     },
     "babel": {
         "presets": [
             [
-                "env",
+                "@babel/preset-env",
                 {
                     "targets": {
                         "node": "4"

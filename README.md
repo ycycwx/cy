@@ -78,4 +78,4 @@ cy --help
 1. command: remove
 2. progress bar
 3. more configurable
-4. nodejs api
+4. typed rewrite
