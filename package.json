@@ -18,14 +18,14 @@
     "author": "yytcjcy@gmail.com",
     "license": "MIT",
     "dependencies": {
-        "cac": "^4.2.4",
-        "chalk": "^2.3.0",
-        "fs-extra": "^4.0.2"
+        "cac": "^4.4.4",
+        "chalk": "^2.4.2",
+        "fs-extra": "^4.0.3"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.6.1",
-        "rimraf": "^2.6.2"
+        "babel-preset-env": "^1.7.0",
+        "rimraf": "^2.7.1"
     },
     "babel": {
         "presets": [
