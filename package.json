@@ -7,7 +7,7 @@
         "lib"
     ],
     "bin": {
-        "cy": "./bin/cy.js"
+        "cy": "bin/cy.js"
     },
     "scripts": {
         "start": "babel -w src -d lib",
