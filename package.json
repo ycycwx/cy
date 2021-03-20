@@ -18,7 +18,7 @@
     "author": "yytcjcy@gmail.com",
     "license": "MIT",
     "dependencies": {
-        "cac": "^4.4.4",
+        "cac": "5",
         "chalk": "^4.0.0",
         "fs-extra": "^9.0.0"
     },
@@ -26,7 +26,8 @@
         "@babel/cli": "^7.8.4",
         "@babel/core": "^7.9.0",
         "@babel/preset-env": "^7.9.0",
-        "rimraf": "^3.0.2"
+        "rimraf": "^3.0.2",
+        "standard-version": "^9.1.1"
     },
     "babel": {
         "presets": [
