@@ -46,18 +46,19 @@ class DataBase {
 
     copy(dir: string) {
         if (!fs.existsSync(dir)) {
-            fs.mkdirp(dir);
+            fs.mkdirpSync(dir);
         }
 
-        let stat = fs.lstatSync(dir);
+        const stat = fs.lstatSync(dir);
         if (!stat.isDirectory()) {
             warn('Target must be directory');
             return;
         }
 
+        // eslint-disable-next-line array-callback-return
         this.dump().map(file => {
             try {
-                let target = path.resolve(dir, path.basename(file));
+                const target = path.resolve(dir, path.basename(file));
                 tip(`Copying file "${file}" to "${target}"`);
                 fs.copySync(file, target);
             }
@@ -71,18 +72,19 @@ class DataBase {
 
     move(dir: string) {
         if (!fs.existsSync(dir)) {
-            fs.mkdirp(dir);
+            fs.mkdirpSync(dir);
         }
 
-        let stat = fs.lstatSync(dir);
+        const stat = fs.lstatSync(dir);
         if (!stat.isDirectory()) {
             warn('Target must be directory');
             return;
         }
 
+        // eslint-disable-next-line array-callback-return
         this.dump().map(file => {
             try {
-                let target = path.resolve(dir, path.basename(file));
+                const target = path.resolve(dir, path.basename(file));
                 tip(`Moving file "${file}" to "${target}"`);
                 fs.moveSync(file, target);
             }

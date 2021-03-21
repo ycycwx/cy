@@ -23,15 +23,15 @@ export default class Add extends Base {
     }
 
     commandHandler() {
-        let input = this.input;
+        const input = this.input;
 
         if (input.length <= 0) {
             warn('You must add file or folder at least one');
             return;
         }
 
-        let valid = input.every(file => {
-            let exist = fs.existsSync(file);
+        const valid = input.every(file => {
+            const exist = fs.existsSync(file);
             !exist && warn(`"${file}" is not exist`);
             return exist;
         });

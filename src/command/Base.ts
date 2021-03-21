@@ -43,29 +43,29 @@ export default class Base {
     }
 
     handleIgnores() {
-        let input = this.input;
-        let flags = this.flags;
+        const input = this.input;
+        const flags = this.flags;
 
         if (flags.i !== true) {
             input.push(flags.i);
         }
 
-        let cmd = process.argv[2];
-        let {command, alias} = this.constructor as any;
+        const cmd = process.argv[2];
+        const {command, alias} = this.constructor as any;
         if (cmd === command || [].concat(alias).includes(cmd)) {
             input.push(cmd);
         }
     }
 
     defaultHandler() {
-        let input = this.input;
+        const input = this.input;
 
         if (input.length <= 0) {
             warn('You must add file or folder at least one');
             return;
         }
 
-        let {valid, invalid} = input.reduce(
+        const {valid, invalid} = input.reduce(
             (group, file) => {
                 const key: 'valid' | 'invalid' = fs.existsSync(file) ? 'valid' : 'invalid';
                 group[key].push(file);

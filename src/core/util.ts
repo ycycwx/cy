@@ -20,9 +20,9 @@ const format = (Target: typeof Base) => ([
     Target.command,
     {
         alias: Target.alias,
-        desc: Target.desc
+        desc: Target.desc,
     },
-    (input: string[], options: any) => (new Target(input, options)).handle
+    (input: string[], options: any) => (new Target(input, options)).handle,
 ]);
 
 export const install = (cli: any) => (command: any) => cli.command(...format(command));
