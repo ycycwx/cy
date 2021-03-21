@@ -1,5 +1,5 @@
 /**
- * @file Copy.js
+ * @file Move.js
  * @author ycy
  */
 
@@ -8,23 +8,23 @@ import {warn} from '../core/util';
 import db from '../core/db';
 import Base from './Base';
 
-export default class Copy extends Base {
+export default class Move extends Base {
 
-    static get name() {
-        return 'copy';
+    static get command() {
+        return 'move';
     }
 
     static get alias() {
-        return ['cp', 'c'];
+        return ['m', 'mv'];
     }
 
     static get desc() {
-        return 'copy files';
+        return 'move files';
     }
 
     commandHandler() {
         if (this.input.length !== 1) {
-            warn('You must add file or folder at least one');
+            warn('You must choose only one directory');
             return;
         }
 
@@ -33,8 +33,11 @@ export default class Copy extends Base {
             return;
         }
 
-        db.copy(path.resolve(process.cwd(), this.input[0]));
+        db.move(path.resolve(process.cwd(), this.input[0]));
+
+        // reset db after move
+        db.reset();
+
         db.commit();
     }
 }
-

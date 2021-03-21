@@ -14,6 +14,8 @@ const encode = 'utf8';
 const DB = Symbol('db');
 
 class DataBase {
+    [DB]: Set<string>;
+
     constructor() {
         if (fs.existsSync(filePath)) {
             try {
@@ -34,7 +36,7 @@ class DataBase {
         return this[DB].size;
     }
 
-    add(...files) {
+    add(...files: string[]) {
         files.forEach(file => this[DB].add(file));
     }
 
@@ -42,7 +44,7 @@ class DataBase {
         this[DB] = new Set();
     }
 
-    copy(dir) {
+    copy(dir: string) {
         if (!fs.existsSync(dir)) {
             fs.mkdirp(dir);
         }
@@ -67,7 +69,7 @@ class DataBase {
         });
     }
 
-    move(dir) {
+    move(dir: string) {
         if (!fs.existsSync(dir)) {
             fs.mkdirp(dir);
         }

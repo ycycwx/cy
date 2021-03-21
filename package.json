@@ -10,12 +10,13 @@
         "cy": "bin/cy.js"
     },
     "scripts": {
-        "start": "babel -w src -d lib",
-        "build": "babel src -d lib",
+        "start": "babel -w src -d lib --extensions \".ts\"",
+        "build": "babel src -d lib --extensions \".ts\"",
         "clean": "rimraf lib",
-        "prepublishOnly": "npm run clean && npm run build",
+        "prepublishOnly": "npm run tsc && npm run clean && npm run build",
         "prepare": "husky install",
-        "release": "standard-version"
+        "release": "standard-version",
+        "tsc": "tsc --noEmit"
     },
     "author": "yytcjcy@gmail.com",
     "license": "MIT",
@@ -28,10 +29,15 @@
         "@babel/cli": "^7.8.4",
         "@babel/core": "^7.9.0",
         "@babel/preset-env": "^7.9.0",
+        "@babel/preset-typescript": "^7.13.0",
         "@commitlint/cli": "^12.0.1",
         "@commitlint/config-conventional": "^12.0.1",
+        "@types/fs-extra": "^9.0.8",
+        "@types/node": "^14.14.35",
+        "babel-plugin-transform-class-properties": "^6.24.1",
         "husky": "^5.1.3",
         "rimraf": "^3.0.2",
-        "standard-version": "^9.1.1"
+        "standard-version": "^9.1.1",
+        "typescript": "^4.2.3"
     }
 }

@@ -9,7 +9,7 @@ import Base from './Base';
 
 export default class List extends Base {
 
-    static get name() {
+    static get command() {
         return 'list';
     }
 

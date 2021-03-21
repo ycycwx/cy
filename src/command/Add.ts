@@ -10,7 +10,7 @@ import Base from './Base';
 
 export default class Add extends Base {
 
-    static get name() {
+    static get command() {
         return 'add';
     }
 
@@ -48,4 +48,3 @@ export default class Add extends Base {
         db.commit();
     }
 }
-
