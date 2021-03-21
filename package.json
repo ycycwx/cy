@@ -14,7 +14,8 @@
         "build": "babel src -d lib",
         "clean": "rimraf lib",
         "prepublishOnly": "npm run clean && npm run build",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "release": "standard-version"
     },
     "author": "yytcjcy@gmail.com",
     "license": "MIT",
