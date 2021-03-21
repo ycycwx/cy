@@ -10,12 +10,13 @@
         "cy": "bin/cy.js"
     },
     "scripts": {
-        "start": "babel -w src -d lib --extensions \".ts\"",
         "build": "babel src -d lib --extensions \".ts\"",
         "clean": "rimraf lib",
-        "prepublishOnly": "npm run tsc && npm run clean && npm run build",
+        "lint": "eslint --fix src/**/*.ts",
         "prepare": "husky install",
+        "prepublishOnly": "npm run tsc && npm run clean && npm run build",
         "release": "standard-version",
+        "start": "babel -w src -d lib --extensions \".ts\"",
         "tsc": "tsc --noEmit"
     },
     "author": "yytcjcy@gmail.com",
