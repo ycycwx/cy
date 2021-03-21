@@ -8,7 +8,7 @@ import Base from './Base';
 
 export default class Reset extends Base {
 
-    static get name() {
+    static get command() {
         return 'reset';
     }
 
@@ -25,4 +25,3 @@ export default class Reset extends Base {
         db.commit();
     }
 }
-

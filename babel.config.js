@@ -1,7 +1,8 @@
 module.exports = {
     presets: [
+        require.resolve('@babel/preset-typescript'),
         [
-            '@babel/preset-env',
+            require.resolve('@babel/preset-env'),
             {
                 targets: {
                     node: '4'
@@ -9,5 +10,8 @@ module.exports = {
                 useBuiltIns: false
             }
         ]
+    ],
+    plugins: [
+        require.resolve('@babel/plugin-proposal-class-properties')
     ]
 };

@@ -7,7 +7,7 @@ import Base from './Base';
 
 export default class Default extends Base {
 
-    static get name() {
+    static get command() {
         return '*';
     }
 
