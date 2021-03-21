@@ -13,14 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install Dependencies
       - run: yarn
-
-      - name: Build
-        run: yarn build
-
-      - name: Type Check
-        run: yarn tsc
-
-      - name: Lint
-        run: yarn lint
+      - run: yarn build
+      - run: yarn tsc
+      - run: yarn lint
