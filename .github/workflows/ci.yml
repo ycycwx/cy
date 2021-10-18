@@ -9,11 +9,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
-
-      - run: yarn
-      - run: yarn build
-      - run: yarn tsc
-      - run: yarn lint
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - run: npm install --global pnpm
+      - run: pnpm install --frozen-lockfile
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+      - run: pnpm run build
+      - run: pnpm run tsc
+      - run: pnpm run lint
