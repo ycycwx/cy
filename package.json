@@ -23,7 +23,7 @@
     "license": "MIT",
     "dependencies": {
         "cac": "5.0.16",
-        "chalk": "4.1.2",
+        "chalk": "5.0.0",
         "fs-extra": "10.0.0"
     },
     "devDependencies": {
