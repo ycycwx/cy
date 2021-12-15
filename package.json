@@ -22,7 +22,7 @@
     "author": "yytcjcy@gmail.com",
     "license": "MIT",
     "dependencies": {
-        "cac": "5.0.16",
+        "cac": "6.7.12",
         "chalk": "4.1.2",
         "fs-extra": "10.0.0"
     },
