@@ -9,7 +9,7 @@ specifiers:
   '@babel/preset-typescript': 7.16.7
   '@commitlint/cli': 16.0.1
   '@commitlint/config-conventional': 16.0.0
-  '@ecomfe/eslint-config': 7.3.0
+  '@ecomfe/eslint-config': 7.4.0
   '@types/fs-extra': 9.0.13
   '@types/node': 17.0.4
   '@typescript-eslint/eslint-plugin': 5.8.1
@@ -39,7 +39,7 @@ devDependencies:
   '@babel/preset-typescript': 7.16.7_@babel+core@7.16.7
   '@commitlint/cli': 16.0.1_@types+node@17.0.4
   '@commitlint/config-conventional': 16.0.0
-  '@ecomfe/eslint-config': 7.3.0_4eff5f738289dcbd3569a273f80b2e11
+  '@ecomfe/eslint-config': 7.4.0_4eff5f738289dcbd3569a273f80b2e11
   '@types/fs-extra': 9.0.13
   '@types/node': 17.0.4
   '@typescript-eslint/eslint-plugin': 5.8.1_13039593e64cd539d0b4c5c2da390958
@@ -1435,20 +1435,20 @@ packages:
       '@cspotcode/source-map-consumer': 0.8.0
     dev: true
 
-  /@ecomfe/eslint-config/7.3.0_4eff5f738289dcbd3569a273f80b2e11:
-    resolution: {integrity: sha512-srHEADiEWJ+dLTsY2S2hcpfDvvohwOsJT3XivpfnDn6Iat8EfJld0Si2T3eMx34r84wU1DXkFERfEHtJHVfZ3Q==}
+  /@ecomfe/eslint-config/7.4.0_4eff5f738289dcbd3569a273f80b2e11:
+    resolution: {integrity: sha512-X0gO63txlk+q8KgNQ5SJiCqnc5ii2+01V6Z7vka6SLUGGDK8KLKpwc69Q0jJ9zWKZ4PIDMIuV25nx+GTlqmo8Q==}
     peerDependencies:
       '@babel/core': ^7.12.10
       '@babel/eslint-parser': ^7.12.1
       '@babel/eslint-plugin': ^7.12.1
-      '@typescript-eslint/eslint-plugin': ^4.11.0
-      '@typescript-eslint/parser': ^4.11.0
-      eslint: ^6.2.0 || 7.x
+      '@typescript-eslint/eslint-plugin': ^4.11.0 || 5.x
+      '@typescript-eslint/parser': ^4.11.0 || 5.x
+      eslint: ^6.2.0 || 7.x || 8.x
       eslint-plugin-import: ^2.22.1
       eslint-plugin-react: ^7.21.5
       eslint-plugin-react-hooks: ^4.2.0
       eslint-plugin-san: ^1.0.0
-      eslint-plugin-vue: ^7.3.0
+      eslint-plugin-vue: ^7.20.0
     peerDependenciesMeta:
       '@typescript-eslint/eslint-plugin':
         optional: true
@@ -1471,6 +1471,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 5.8.1_13039593e64cd539d0b4c5c2da390958
       '@typescript-eslint/parser': 5.8.1_eslint@8.6.0+typescript@4.5.4
       eslint: 8.6.0
+      semver: 7.3.5
     dev: true
 
   /@eslint/eslintrc/1.0.5:
