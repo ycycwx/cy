@@ -7,7 +7,7 @@ specifiers:
   '@babel/eslint-plugin': 7.16.5
   '@babel/preset-env': 7.16.7
   '@babel/preset-typescript': 7.16.7
-  '@commitlint/cli': 16.0.1
+  '@commitlint/cli': 16.0.2
   '@commitlint/config-conventional': 16.0.0
   '@ecomfe/eslint-config': 7.4.0
   '@types/fs-extra': 9.0.13
@@ -37,7 +37,7 @@ devDependencies:
   '@babel/eslint-plugin': 7.16.5_ab4f72bc3b996cfd2bba2110a061c257
   '@babel/preset-env': 7.16.7_@babel+core@7.16.7
   '@babel/preset-typescript': 7.16.7_@babel+core@7.16.7
-  '@commitlint/cli': 16.0.1_@types+node@17.0.4
+  '@commitlint/cli': 16.0.2_@types+node@17.0.4
   '@commitlint/config-conventional': 16.0.0
   '@ecomfe/eslint-config': 7.4.0_0cfa7593fc557a1e5635cc8cdab0e78a
   '@types/fs-extra': 9.0.13
@@ -1263,8 +1263,8 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commitlint/cli/16.0.1_@types+node@17.0.4:
-    resolution: {integrity: sha512-61gGRy65WiVDRsqP0dAR2fAgE3qrTBW3fgz9MySv32y5Ib3ZXXDDq6bGyQqi2dSaPuDYzNCRwwlC7mmQM73T/g==}
+  /@commitlint/cli/16.0.2_@types+node@17.0.4:
+    resolution: {integrity: sha512-Jt7iaBjoLGC5Nq4dHPTvTYnqPGkElFPBtTXTvBpTgatZApczyjI2plE0oG4GYWPp1suHIS/VdVDOMpPZjGVusg==}
     engines: {node: '>=v12'}
     hasBin: true
     dependencies:
