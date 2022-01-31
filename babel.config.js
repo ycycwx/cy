@@ -5,13 +5,13 @@ module.exports = {
             require.resolve('@babel/preset-env'),
             {
                 targets: {
-                    node: '4'
+                    node: '4',
                 },
-                useBuiltIns: false
-            }
-        ]
+                useBuiltIns: false,
+            },
+        ],
     ],
     plugins: [
-        require.resolve('@babel/plugin-proposal-class-properties')
-    ]
+        require.resolve('@babel/plugin-proposal-class-properties'),
+    ],
 };
