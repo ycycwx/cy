@@ -13,6 +13,13 @@ export default class Base {
 
     flags: {[k: string]: any};
 
+    constructor(input: string[], flags: {[k: string]: any}) {
+        this.input = input;
+        this.flags = flags;
+
+        this.handle();
+    }
+
     static get command(): string {
         return null;
     }
@@ -23,13 +30,6 @@ export default class Base {
 
     static get desc(): string {
         return null;
-    }
-
-    constructor(input: string[], flags: {[k: string]: any}) {
-        this.input = input;
-        this.flags = flags;
-
-        this.handle();
     }
 
     handle() {
