@@ -33,7 +33,7 @@ export default class Move extends Base {
             return;
         }
 
-        db.move(path.resolve(process.cwd(), this.input[0]));
+        db.move(path.resolve(process.cwd(), this.input[0]!));
 
         // reset db after move
         db.reset();

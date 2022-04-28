@@ -20,7 +20,7 @@ export default class Base {
         this.handle();
     }
 
-    static get command(): string {
+    static get command(): string | null {
         return null;
     }
 
@@ -28,7 +28,7 @@ export default class Base {
         return [];
     }
 
-    static get desc(): string {
+    static get desc(): string | null {
         return null;
     }
 
@@ -50,9 +50,9 @@ export default class Base {
             input.push(flags.i);
         }
 
-        const cmd = process.argv[2];
+        const cmd = process.argv[2]!;
         const {command, alias} = this.constructor as any;
-        if (cmd === command || [].concat(alias).includes(cmd)) {
+        if (cmd === command || ([] as string[]).concat(alias).includes(cmd)) {
             input.push(cmd);
         }
     }
@@ -71,7 +71,7 @@ export default class Base {
                 group[key].push(file);
                 return group;
             },
-            {valid: [], invalid: []}
+            {valid: [], invalid: []} as Record<'valid' | 'invalid', string[]>
         );
 
         if (invalid.length > 0) {

@@ -62,7 +62,7 @@ class DataBase {
                 tip(`Copying file "${file}" to "${target}"`);
                 fs.copySync(file, target);
             }
-            catch (error) {
+            catch (error: any) {
                 warn(
                     `Fail to copy "file: ${file}" to "dir: ${dir}", reason is ${error.message}`
                 );
@@ -88,7 +88,7 @@ class DataBase {
                 tip(`Moving file "${file}" to "${target}"`);
                 fs.moveSync(file, target);
             }
-            catch (error) {
+            catch (error: any) {
                 warn(
                     `Fail to move "file: ${file}" to "dir: ${dir}", reason is ${error.message}`
                 );
@@ -108,7 +108,7 @@ class DataBase {
                 encode
             );
         }
-        catch (error) {
+        catch (error: any) {
             warn(`Fail to commit record, reason is ${error.message}`);
         }
     }
