@@ -1,12 +1,18 @@
+const {resolve} = require('node:path');
+
+const project = resolve(__dirname, 'tsconfig.json');
+
 module.exports = {
+    root: true,
     extends: [require.resolve('@yotsubacy/config/eslint/node'), require.resolve('@yotsubacy/config/eslint/typescript')],
     parserOptions: {
-        tsconfigRootDir: __dirname,
-        project: ['./tsconfig.json'],
+        project,
     },
     settings: {
         'import/resolver': {
-            typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
+            typescript: {
+                project,
+            },
         },
     },
     rules: {
