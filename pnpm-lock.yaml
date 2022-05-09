@@ -15,7 +15,7 @@ specifiers:
   chalk: 4.1.2
   eslint: 8.15.0
   fs-extra: 10.1.0
-  husky: 8.0.0
+  husky: 8.0.1
   lint-staged: 12.4.1
   rimraf: 3.0.2
   standard-version: 9.3.2
@@ -38,7 +38,7 @@ devDependencies:
   '@types/node': 17.0.31
   '@yotsubacy/config': 1.3.0_a2sn42pvp3hwml7rpmeenef5ru
   eslint: 8.15.0
-  husky: 8.0.0
+  husky: 8.0.1
   lint-staged: 12.4.1
   rimraf: 3.0.2
   standard-version: 9.3.2
@@ -3175,8 +3175,8 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: true
 
-  /husky/8.0.0:
-    resolution: {integrity: sha512-4qbE/5dzNDNxFEkX9MNRPKl5+omTXQzdILCUWiqG/lWIAioiM5vln265/l6I2Zx8gpW8l1ukZwGQeCFbBZ6+6w==}
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
