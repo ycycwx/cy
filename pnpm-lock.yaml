@@ -9,7 +9,7 @@ specifiers:
   '@commitlint/cli': 17.0.0
   '@commitlint/config-conventional': 17.0.0
   '@types/fs-extra': 9.0.13
-  '@types/node': 17.0.33
+  '@types/node': 17.0.35
   '@yotsubacy/config': 1.4.0
   cac: 5.0.16
   chalk: 4.1.2
@@ -35,7 +35,7 @@ devDependencies:
   '@commitlint/cli': 17.0.0
   '@commitlint/config-conventional': 17.0.0
   '@types/fs-extra': 9.0.13
-  '@types/node': 17.0.33
+  '@types/node': 17.0.35
   '@yotsubacy/config': 1.4.0_2rmrxdy4kou5oukfrvtoyiyzda
   eslint: 8.15.0
   husky: 8.0.1
@@ -158,24 +158,6 @@ packages:
       '@babel/helper-validator-option': 7.16.7
       browserslist: 4.20.3
       semver: 6.3.0
-    dev: true
-
-  /@babel/helper-create-class-features-plugin/7.17.12_@babel+core@7.18.0:
-    resolution: {integrity: sha512-sZoOeUTkFJMyhqCei2+Z+wtH/BehW8NVKQt7IRUQlRiOARuXymJYfN/FCcI8CvVbR0XVyDM6eLFOlR7YtiXnew==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/core': 7.18.0
-      '@babel/helper-annotate-as-pure': 7.16.7
-      '@babel/helper-environment-visitor': 7.16.7
-      '@babel/helper-function-name': 7.17.9
-      '@babel/helper-member-expression-to-functions': 7.17.7
-      '@babel/helper-optimise-call-expression': 7.16.7
-      '@babel/helper-replace-supers': 7.16.7
-      '@babel/helper-split-export-declaration': 7.16.7
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /@babel/helper-create-class-features-plugin/7.18.0_@babel+core@7.18.0:
@@ -434,7 +416,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.18.0
-      '@babel/helper-create-class-features-plugin': 7.17.12_@babel+core@7.18.0
+      '@babel/helper-create-class-features-plugin': 7.18.0_@babel+core@7.18.0
       '@babel/helper-plugin-utils': 7.17.12
     transitivePeerDependencies:
       - supports-color
@@ -564,7 +546,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.18.0
-      '@babel/helper-create-class-features-plugin': 7.17.12_@babel+core@7.18.0
+      '@babel/helper-create-class-features-plugin': 7.18.0_@babel+core@7.18.0
       '@babel/helper-plugin-utils': 7.17.12
     transitivePeerDependencies:
       - supports-color
@@ -578,7 +560,7 @@ packages:
     dependencies:
       '@babel/core': 7.18.0
       '@babel/helper-annotate-as-pure': 7.16.7
-      '@babel/helper-create-class-features-plugin': 7.17.12_@babel+core@7.18.0
+      '@babel/helper-create-class-features-plugin': 7.18.0_@babel+core@7.18.0
       '@babel/helper-plugin-utils': 7.17.12
       '@babel/plugin-syntax-private-property-in-object': 7.14.5_@babel+core@7.18.0
     transitivePeerDependencies:
@@ -860,8 +842,8 @@ packages:
       '@babel/helper-plugin-utils': 7.17.12
     dev: true
 
-  /@babel/plugin-transform-for-of/7.17.12_@babel+core@7.18.0:
-    resolution: {integrity: sha512-76lTwYaCxw8ldT7tNmye4LLwSoKDbRCBzu6n/DcK/P3FOR29+38CIIaVIZfwol9By8W/QHORYEnYSLuvcQKrsg==}
+  /@babel/plugin-transform-for-of/7.18.1_@babel+core@7.18.0:
+    resolution: {integrity: sha512-+TTB5XwvJ5hZbO8xvl2H4XaMDOAK57zF4miuC9qQJgysPNEAZZ9Z69rdF5LJkozGdZrjBIUAIyKUWRMmebI7vg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1086,14 +1068,14 @@ packages:
       '@babel/helper-plugin-utils': 7.17.12
     dev: true
 
-  /@babel/plugin-transform-typescript/7.17.12_@babel+core@7.18.0:
-    resolution: {integrity: sha512-ICbXZqg6hgenjmwciVI/UfqZtExBrZOrS8sLB5mTHGO/j08Io3MmooULBiijWk9JBknjM3CbbtTc/0ZsqLrjXQ==}
+  /@babel/plugin-transform-typescript/7.18.1_@babel+core@7.18.0:
+    resolution: {integrity: sha512-F+RJmL479HJmC0KeqqwEGZMg1P7kWArLGbAKfEi9yPthJyMNjF+DjxFF/halfQvq1Q9GFM4TUbYDNV8xe4Ctqg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.18.0
-      '@babel/helper-create-class-features-plugin': 7.17.12_@babel+core@7.18.0
+      '@babel/helper-create-class-features-plugin': 7.18.0_@babel+core@7.18.0
       '@babel/helper-plugin-utils': 7.17.12
       '@babel/plugin-syntax-typescript': 7.17.12_@babel+core@7.18.0
     transitivePeerDependencies:
@@ -1174,7 +1156,7 @@ packages:
       '@babel/plugin-transform-dotall-regex': 7.16.7_@babel+core@7.18.0
       '@babel/plugin-transform-duplicate-keys': 7.17.12_@babel+core@7.18.0
       '@babel/plugin-transform-exponentiation-operator': 7.16.7_@babel+core@7.18.0
-      '@babel/plugin-transform-for-of': 7.17.12_@babel+core@7.18.0
+      '@babel/plugin-transform-for-of': 7.18.1_@babel+core@7.18.0
       '@babel/plugin-transform-function-name': 7.16.7_@babel+core@7.18.0
       '@babel/plugin-transform-literals': 7.17.12_@babel+core@7.18.0
       '@babel/plugin-transform-member-expression-literals': 7.16.7_@babel+core@7.18.0
@@ -1229,13 +1211,13 @@ packages:
       '@babel/core': 7.18.0
       '@babel/helper-plugin-utils': 7.17.12
       '@babel/helper-validator-option': 7.16.7
-      '@babel/plugin-transform-typescript': 7.17.12_@babel+core@7.18.0
+      '@babel/plugin-transform-typescript': 7.18.1_@babel+core@7.18.0
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@babel/runtime/7.17.9:
-    resolution: {integrity: sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==}
+  /@babel/runtime/7.18.0:
+    resolution: {integrity: sha512-YMQvx/6nKEaucl0MY56mwIG483xk8SDNdlUwb2Ts6FUpr7fm85DxEmsY18LXBNhcTz6tO6JwZV8w1W06v8UKeg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.9
@@ -1357,10 +1339,10 @@ packages:
       '@commitlint/execute-rule': 17.0.0
       '@commitlint/resolve-extends': 17.0.0
       '@commitlint/types': 17.0.0
-      '@types/node': 17.0.33
+      '@types/node': 17.0.35
       chalk: 4.1.2
       cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 2.0.0_2e3zkt3gzqz6r43dj4x46rot3i
+      cosmiconfig-typescript-loader: 2.0.0_ihi2kx3po6rqbrzdqgpcfvwinm
       lodash: 4.17.21
       resolve-from: 5.0.0
       typescript: 4.6.4
@@ -1572,7 +1554,7 @@ packages:
   /@types/fs-extra/9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 17.0.33
+      '@types/node': 17.0.35
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -1586,8 +1568,8 @@ packages:
   /@types/minimist/1.2.2:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
 
-  /@types/node/17.0.33:
-    resolution: {integrity: sha512-miWq2m2FiQZmaHfdZNcbpp9PuXg34W5JZ5CrJ/BaS70VuhoJENBEQybeiYSaPBRNq6KQGnjfEnc/F3PN++D+XQ==}
+  /@types/node/17.0.35:
+    resolution: {integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1861,7 +1843,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
       get-intrinsic: 1.1.1
       is-string: 1.0.7
     dev: true
@@ -1877,7 +1859,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
       es-shim-unscopables: 1.0.0
     dev: true
 
@@ -1887,7 +1869,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
       es-shim-unscopables: 1.0.0
     dev: true
 
@@ -2327,16 +2309,16 @@ packages:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
     dev: true
 
-  /cosmiconfig-typescript-loader/2.0.0_2e3zkt3gzqz6r43dj4x46rot3i:
+  /cosmiconfig-typescript-loader/2.0.0_ihi2kx3po6rqbrzdqgpcfvwinm:
     resolution: {integrity: sha512-2NlGul/E3vTQEANqPziqkA01vfiuUU8vT0jZAuUIjEW8u3eCcnCQWLggapCjhbF76s7KQF0fM0kXSKmzaDaG1g==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
       '@types/node': '*'
       typescript: '>=3'
     dependencies:
-      '@types/node': 17.0.33
+      '@types/node': 17.0.35
       cosmiconfig: 7.0.1
-      ts-node: 10.7.0_2e3zkt3gzqz6r43dj4x46rot3i
+      ts-node: 10.7.0_ihi2kx3po6rqbrzdqgpcfvwinm
       typescript: 4.6.4
     transitivePeerDependencies:
       - '@swc/core'
@@ -2521,8 +2503,8 @@ packages:
       is-arrayish: 0.2.1
     dev: true
 
-  /es-abstract/1.20.0:
-    resolution: {integrity: sha512-URbD8tgRthKD3YcC39vbvSDrX23upXnPcnGAjQfgxXF5ID75YcENawc9ZX/9iTP9ptUyfCLIxTTuMYoRfiOVKA==}
+  /es-abstract/1.20.1:
+    resolution: {integrity: sha512-WEm2oBhfoI2sImeM4OF2zE2V3BYdSF+KnSi9Sidz51fQHd7+JuF8Xgcj9/0o+OWeIeIS/MiuNnlruQrJf16GQA==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.2
@@ -2975,7 +2957,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
       functions-have-names: 1.2.3
     dev: true
 
@@ -3810,7 +3792,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
     dev: true
 
   /object.fromentries/2.0.5:
@@ -3819,14 +3801,14 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
     dev: true
 
   /object.hasown/1.1.1:
     resolution: {integrity: sha512-LYLe4tivNQzq4JdaWW6WO3HMZZJWzkkH8fnI6EebWl0VZth2wL2Lovm74ep2/gZzlaTdV62JZHEqHQ2yVn8Q/A==}
     dependencies:
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
     dev: true
 
   /object.values/1.1.5:
@@ -3835,7 +3817,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
     dev: true
 
   /once/1.4.0:
@@ -4159,7 +4141,7 @@ packages:
   /regenerator-transform/0.15.0:
     resolution: {integrity: sha512-LsrGtPmbYg19bcPHwdtmXwbW+TqNvtY4riE3P83foeHRroMbH6/2ddFBfab3t7kbzc7v7p4wbkIecHImqt0QNg==}
     dependencies:
-      '@babel/runtime': 7.17.9
+      '@babel/runtime': 7.18.0
     dev: true
 
   /regexp.prototype.flags/1.4.3:
@@ -4460,7 +4442,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
       get-intrinsic: 1.1.1
       has-symbols: 1.0.3
       internal-slot: 1.0.3
@@ -4473,7 +4455,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
     dev: true
 
   /string.prototype.trimstart/1.0.5:
@@ -4481,7 +4463,7 @@ packages:
     dependencies:
       call-bind: 1.0.2
       define-properties: 1.1.4
-      es-abstract: 1.20.0
+      es-abstract: 1.20.1
     dev: true
 
   /string_decoder/1.1.1:
@@ -4612,7 +4594,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node/10.7.0_2e3zkt3gzqz6r43dj4x46rot3i:
+  /ts-node/10.7.0_ihi2kx3po6rqbrzdqgpcfvwinm:
     resolution: {integrity: sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==}
     hasBin: true
     peerDependencies:
@@ -4631,7 +4613,7 @@ packages:
       '@tsconfig/node12': 1.0.9
       '@tsconfig/node14': 1.0.1
       '@tsconfig/node16': 1.0.2
-      '@types/node': 17.0.33
+      '@types/node': 17.0.35
       acorn: 8.7.1
       acorn-walk: 8.2.0
       arg: 4.1.3
