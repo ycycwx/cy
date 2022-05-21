@@ -10,7 +10,7 @@ specifiers:
   '@commitlint/config-conventional': 17.0.0
   '@types/fs-extra': 9.0.13
   '@types/node': 17.0.35
-  '@yotsubacy/config': 1.4.0
+  '@yotsubacy/config': 1.4.1
   cac: 5.0.16
   chalk: 4.1.2
   eslint: 8.16.0
@@ -36,7 +36,7 @@ devDependencies:
   '@commitlint/config-conventional': 17.0.0
   '@types/fs-extra': 9.0.13
   '@types/node': 17.0.35
-  '@yotsubacy/config': 1.4.0_xtx3urpa67qc5npjku6vhagc3e
+  '@yotsubacy/config': 1.4.1_xtx3urpa67qc5npjku6vhagc3e
   eslint: 8.16.0
   husky: 8.0.1
   lint-staged: 12.4.1
@@ -1706,10 +1706,10 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@yotsubacy/config/1.4.0_xtx3urpa67qc5npjku6vhagc3e:
-    resolution: {integrity: sha512-tbyCPRpIrIFb9ah0bOsIuzPo83pbYDB4mSePkcUW3L0E7DeYT3mRl0QKRpMcLvoWQ5Z3P7+gQGC7UdttURP6jg==}
+  /@yotsubacy/config/1.4.1_xtx3urpa67qc5npjku6vhagc3e:
+    resolution: {integrity: sha512-Ze8UsAxFHi9jB9DdT8w5SgMFhkMLABhQReWLkzLXKTeU6OxuNA8ib4c6AlPXpQ32Ahg0ivnFT2pfMH/YOksO4w==}
     peerDependencies:
-      eslint: ^8.14.0
+      eslint: ^8.16.0
     dependencies:
       '@babel/eslint-parser': 7.17.0_3jmbb74oue544vtiil27ushva4
       '@rushstack/eslint-patch': 1.1.3
