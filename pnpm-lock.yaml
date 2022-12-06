@@ -9,7 +9,7 @@ specifiers:
   '@commitlint/cli': 17.3.0
   '@commitlint/config-conventional': 17.3.0
   '@types/fs-extra': 9.0.13
-  '@types/node': 18.11.10
+  '@types/node': 18.11.11
   '@yotsubacy/config': 1.8.0
   cac: 5.0.16
   chalk: 4.1.2
@@ -35,7 +35,7 @@ devDependencies:
   '@commitlint/cli': 17.3.0
   '@commitlint/config-conventional': 17.3.0
   '@types/fs-extra': 9.0.13
-  '@types/node': 18.11.10
+  '@types/node': 18.11.11
   '@yotsubacy/config': 1.8.0_4ez4uudko3hx3akj3am4tzh6lu
   eslint: 8.29.0
   husky: 8.0.2
@@ -1593,7 +1593,7 @@ packages:
   /@types/fs-extra/9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 18.11.10
+      '@types/node': 18.11.11
     dev: true
 
   /@types/json-schema/7.0.11:
@@ -1611,8 +1611,8 @@ packages:
     resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
     dev: true
 
-  /@types/node/18.11.10:
-    resolution: {integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==}
+  /@types/node/18.11.11:
+    resolution: {integrity: sha512-KJ021B1nlQUBLopzZmPBVuGU9un7WJd/W4ya7Ih02B4Uwky5Nja0yGYav2EfYIk0RR2Q9oVhf60S2XR1BCWJ2g==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
