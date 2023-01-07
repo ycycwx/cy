@@ -38,7 +38,7 @@
         "@types/node": "18.11.18",
         "@yotsubacy/config": "1.8.0",
         "eslint": "8.31.0",
-        "husky": "8.0.2",
+        "husky": "8.0.3",
         "lint-staged": "13.1.0",
         "rimraf": "3.0.2",
         "standard-version": "9.5.0",
