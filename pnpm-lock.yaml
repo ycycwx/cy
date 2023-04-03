@@ -52,8 +52,8 @@ devDependencies:
     specifier: 13.2.0
     version: 13.2.0
   rimraf:
-    specifier: 4.3.0
-    version: 4.3.0
+    specifier: 4.4.1
+    version: 4.4.1
   standard-version:
     specifier: 9.5.0
     version: 9.5.0
@@ -4618,8 +4618,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rimraf@4.3.0:
-    resolution: {integrity: sha512-5qVDXPbByA1qSJEWMv1qAwKsoS22vVpsL2QyxCKBw4gf6XiFo1K3uRLY6uSOOBFDwnqAZtnbILqWKKlzh8bkGg==}
+  /rimraf@4.4.1:
+    resolution: {integrity: sha512-Gk8NlF062+T9CqNGn6h4tls3k6T1+/nXdOcSZVikNVtlRdYpA7wRJJMoXmuvOnLW844rPjdQ7JgXCYM6PPC/og==}
     engines: {node: '>=14'}
     hasBin: true
     dependencies:
