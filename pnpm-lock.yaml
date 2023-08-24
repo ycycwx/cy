@@ -41,8 +41,8 @@ devDependencies:
     specifier: 9.0.13
     version: 9.0.13
   '@types/node':
-    specifier: 18.17.8
-    version: 18.17.8
+    specifier: 18.17.9
+    version: 18.17.9
   '@yotsubacy/config':
     specifier: 1.10.2
     version: 1.10.2(@babel/core@7.22.10)(eslint@8.47.0)(typescript@5.1.6)
@@ -1429,7 +1429,7 @@ packages:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@18.17.8)(typescript@5.1.6)
+      ts-node: 10.9.1(@types/node@18.17.9)(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - '@swc/core'
@@ -1681,7 +1681,7 @@ packages:
   /@types/fs-extra@9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 18.17.8
+      '@types/node': 18.17.9
     dev: true
 
   /@types/json-schema@7.0.12:
@@ -1696,8 +1696,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node@18.17.8:
-    resolution: {integrity: sha512-Av/7MqX/iNKwT9Tr60V85NqMnsmh8ilfJoBlIVibkXfitk9Q22D9Y5mSpm+FvG5DET7EbVfB40bOiLzKgYFgPw==}
+  /@types/node@18.17.9:
+    resolution: {integrity: sha512-fxaKquqYcPOGwE7tC1anJaPJ0GHyOVzfA2oUoXECjBjrtsIz4YJvtNYsq8LUcjEUehEF+jGpx8Z+lFrtT6z0tg==}
     dev: true
 
   /@types/node@20.4.7:
@@ -2524,7 +2524,7 @@ packages:
     dependencies:
       '@types/node': 20.4.7
       cosmiconfig: 8.2.0
-      ts-node: 10.9.1(@types/node@18.17.8)(typescript@5.1.6)
+      ts-node: 10.9.1(@types/node@18.17.9)(typescript@5.1.6)
       typescript: 5.1.6
     dev: true
 
@@ -5091,7 +5091,7 @@ packages:
       typescript: 5.1.6
     dev: true
 
-  /ts-node@10.9.1(@types/node@18.17.8)(typescript@5.1.6):
+  /ts-node@10.9.1(@types/node@18.17.9)(typescript@5.1.6):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -5110,7 +5110,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 18.17.8
+      '@types/node': 18.17.9
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
