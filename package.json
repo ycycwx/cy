@@ -39,7 +39,7 @@
         "@yotsubacy/config": "1.10.3",
         "eslint": "8.51.0",
         "husky": "8.0.3",
-        "lint-staged": "14.0.1",
+        "lint-staged": "15.0.1",
         "rimraf": "4.4.1",
         "standard-version": "9.5.0",
         "typescript": "5.2.2"
