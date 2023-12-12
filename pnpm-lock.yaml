@@ -41,8 +41,8 @@ devDependencies:
     specifier: 9.0.13
     version: 9.0.13
   '@types/node':
-    specifier: 20.10.3
-    version: 20.10.3
+    specifier: 20.10.4
+    version: 20.10.4
   '@yotsubacy/config':
     specifier: 1.10.4
     version: 1.10.4(@babel/core@7.23.6)(eslint@8.55.0)(typescript@5.3.3)
@@ -1702,7 +1702,7 @@ packages:
   /@types/fs-extra@9.0.13:
     resolution: {integrity: sha512-nEnwB++1u5lVDM2UI4c1+5R+FYaKfaAzS4OococimjVm3nQw3TuzH5UNsocrcTBbhnerblyHj4A49qXbIiZdpA==}
     dependencies:
-      '@types/node': 20.10.3
+      '@types/node': 20.10.4
     dev: true
 
   /@types/json-schema@7.0.12:
@@ -1721,8 +1721,8 @@ packages:
     resolution: {integrity: sha512-wf3Vz+jCmOQ2HV1YUJuCWdL64adYxumkrxtc+H1VUQlnQI04+5HtH+qZCOE21lBE7gIrt+CwX2Wv8Acrw5Ak6w==}
     dev: true
 
-  /@types/node@20.10.3:
-    resolution: {integrity: sha512-XJavIpZqiXID5Yxnxv3RUDKTN5b81ddNC3ecsA0SoFXz/QU8OGBwZGMomiq0zw+uuqbL/krztv/DINAQ/EV4gg==}
+  /@types/node@20.10.4:
+    resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
     dependencies:
       undici-types: 5.26.5
     dev: true
