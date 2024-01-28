@@ -65,13 +65,13 @@ export default class Base {
             return;
         }
 
-        const {valid, invalid} = input.reduce(
+        const {valid, invalid} = input.reduce<Record<'valid' | 'invalid', string[]>>(
             (group, file) => {
                 const key: 'valid' | 'invalid' = fs.existsSync(file) ? 'valid' : 'invalid';
                 group[key].push(file);
                 return group;
             },
-            {valid: [], invalid: []} as Record<'valid' | 'invalid', string[]>
+            {valid: [], invalid: []}
         );
 
         if (invalid.length > 0) {

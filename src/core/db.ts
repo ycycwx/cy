@@ -55,8 +55,7 @@ class DataBase {
             return;
         }
 
-        // eslint-disable-next-line array-callback-return
-        this.dump().map(file => {
+        this.dump().forEach(file => {
             try {
                 const target = path.resolve(dir, path.basename(file));
                 tip(`Copying file "${file}" to "${target}"`);
@@ -81,8 +80,7 @@ class DataBase {
             return;
         }
 
-        // eslint-disable-next-line array-callback-return
-        this.dump().map(file => {
+        this.dump().forEach(file => {
             try {
                 const target = path.resolve(dir, path.basename(file));
                 tip(`Moving file "${file}" to "${target}"`);
