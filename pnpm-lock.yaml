@@ -44,8 +44,8 @@ devDependencies:
     specifier: 20.12.11
     version: 20.12.11
   '@yotsubacy/config':
-    specifier: 1.10.17
-    version: 1.10.17(@babel/core@7.24.5)(eslint@8.57.0)(typescript@5.4.5)
+    specifier: 1.10.20
+    version: 1.10.20(@babel/core@7.24.5)(eslint@8.57.0)(typescript@5.4.5)
   eslint:
     specifier: 8.57.0
     version: 8.57.0
@@ -1935,8 +1935,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@yotsubacy/config@1.10.17(@babel/core@7.24.5)(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-4Y2S4w7j606HMIQ5AmI+RAEfgQqX3RmCSLWhtDTtBUBuIJ3FfL2mCFT+rAMDjHTm6RDUlwbDrlwGVUSH/TmFQA==}
+  /@yotsubacy/config@1.10.20(@babel/core@7.24.5)(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-vk90Y5tIs0z8EicNjrtVGSNXj681eAHoKn/QV2qQwi+hMHOlr21QKlXLn07SZ/zIzqt/RJ5jSrv2cBjqbn6AgA==}
     peerDependencies:
       eslint: ^8.16.0
     dependencies:
