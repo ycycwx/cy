@@ -35,7 +35,7 @@ importers:
         version: 7.24.7(@babel/core@7.25.2)
       '@commitlint/cli':
         specifier: 19.5.0
-        version: 19.5.0(@types/node@20.16.5)(typescript@5.6.2)
+        version: 19.5.0(@types/node@20.16.7)(typescript@5.6.2)
       '@commitlint/config-conventional':
         specifier: 19.5.0
         version: 19.5.0
@@ -43,8 +43,8 @@ importers:
         specifier: 9.0.13
         version: 9.0.13
       '@types/node':
-        specifier: 20.16.5
-        version: 20.16.5
+        specifier: 20.16.7
+        version: 20.16.7
       '@yotsubacy/config':
         specifier: 1.13.2
         version: 1.13.2(@babel/core@7.25.2)(eslint@8.57.1)(typescript@5.6.2)
@@ -845,8 +845,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@20.16.5':
-    resolution: {integrity: sha512-VwYCweNo3ERajwy0IUlqqcyZ8/A7Zwa9ZP3MnENWcB11AejO+tLy3pu850goUW2FC/IJMdZUfKpX/yxL1gymCA==}
+  '@types/node@20.16.7':
+    resolution: {integrity: sha512-QkDQjAY3gkvJNcZOWwzy3BN34RweT0OQ9zJyvLCU0kSK22dO2QYh/NHGfbEAYylPYzRB1/iXcojS79wOg5gFSw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -1140,7 +1140,7 @@ packages:
     resolution: {integrity: sha512-zHig5N+tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L+IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA==}
 
   concat-map@0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   concat-stream@2.0.0:
     resolution: {integrity: sha512-MWufYdFw53ccGjCA+Ol7XJYpAlW6/prSMzuPOTRnJGcGzuhLn4Scrz7qf6o8bROZ514ltazcIFJZevcfbo0x7A==}
@@ -3766,11 +3766,11 @@ snapshots:
       '@babel/helper-validator-identifier': 7.24.7
       to-fast-properties: 2.0.0
 
-  '@commitlint/cli@19.5.0(@types/node@20.16.5)(typescript@5.6.2)':
+  '@commitlint/cli@19.5.0(@types/node@20.16.7)(typescript@5.6.2)':
     dependencies:
       '@commitlint/format': 19.5.0
       '@commitlint/lint': 19.5.0
-      '@commitlint/load': 19.5.0(@types/node@20.16.5)(typescript@5.6.2)
+      '@commitlint/load': 19.5.0(@types/node@20.16.7)(typescript@5.6.2)
       '@commitlint/read': 19.5.0
       '@commitlint/types': 19.5.0
       tinyexec: 0.3.0
@@ -3817,7 +3817,7 @@ snapshots:
       '@commitlint/rules': 19.5.0
       '@commitlint/types': 19.5.0
 
-  '@commitlint/load@19.5.0(@types/node@20.16.5)(typescript@5.6.2)':
+  '@commitlint/load@19.5.0(@types/node@20.16.7)(typescript@5.6.2)':
     dependencies:
       '@commitlint/config-validator': 19.5.0
       '@commitlint/execute-rule': 19.5.0
@@ -3825,7 +3825,7 @@ snapshots:
       '@commitlint/types': 19.5.0
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.6.2)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.16.5)(cosmiconfig@9.0.0(typescript@5.6.2))(typescript@5.6.2)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.16.7)(cosmiconfig@9.0.0(typescript@5.6.2))(typescript@5.6.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3957,17 +3957,17 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 20.16.5
+      '@types/node': 20.16.7
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 20.16.5
+      '@types/node': 20.16.7
 
   '@types/json5@0.0.29': {}
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@20.16.5':
+  '@types/node@20.16.7':
     dependencies:
       undici-types: 6.19.8
 
@@ -4492,9 +4492,9 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@20.16.5)(cosmiconfig@9.0.0(typescript@5.6.2))(typescript@5.6.2):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@20.16.7)(cosmiconfig@9.0.0(typescript@5.6.2))(typescript@5.6.2):
     dependencies:
-      '@types/node': 20.16.5
+      '@types/node': 20.16.7
       cosmiconfig: 9.0.0(typescript@5.6.2)
       jiti: 1.21.6
       typescript: 5.6.2
