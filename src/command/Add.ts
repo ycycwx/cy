@@ -32,7 +32,9 @@ export default class Add extends Base {
 
         const valid = input.every(file => {
             const exist = fs.existsSync(file);
-            !exist && warn(`"${file}" is not exist`);
+            if (!exist) {
+                warn(`"${file}" is not exist`);
+            }
             return exist;
         });
 

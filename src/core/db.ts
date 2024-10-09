@@ -23,7 +23,7 @@ class DataBase {
                     JSON.parse(fs.readFileSync(filePath, encode))
                 );
             }
-            catch (error) {
+            catch {
                 this[DB] = new Set();
             }
         }
