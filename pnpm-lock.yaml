@@ -46,8 +46,8 @@ importers:
         specifier: 20.16.11
         version: 20.16.11
       '@yotsubacy/config':
-        specifier: 1.14.0
-        version: 1.14.0(@babel/core@7.25.7)(@typescript-eslint/parser@8.8.1(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)
+        specifier: 1.14.1
+        version: 1.14.1(@babel/core@7.25.7)(@typescript-eslint/parser@8.8.1(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -924,8 +924,8 @@ packages:
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
 
-  '@yotsubacy/config@1.14.0':
-    resolution: {integrity: sha512-oXTA9G5+ZCTHuY23khSCKAXgh4bskYO5d09QXGIa7AJ56fOPdtEy4rQjUAOPBzivm0VgSSlYtFYCjHtA7XfbBA==}
+  '@yotsubacy/config@1.14.1':
+    resolution: {integrity: sha512-+BgHzHTf5taoc6owZsyJFvvH27FWkpqExo6/ZzDnOB1K64SKUjYMTEukGwkTJeUwMy7UNoslGE7HO6B6u9hKNQ==}
     peerDependencies:
       eslint: ^8.16.0
 
@@ -4086,7 +4086,7 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@yotsubacy/config@1.14.0(@babel/core@7.25.7)(@typescript-eslint/parser@8.8.1(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)':
+  '@yotsubacy/config@1.14.1(@babel/core@7.25.7)(@typescript-eslint/parser@8.8.1(eslint@8.57.1)(typescript@5.6.3))(eslint@8.57.1)(typescript@5.6.3)':
     dependencies:
       '@babel/eslint-parser': 7.25.7(@babel/core@7.25.7)(eslint@8.57.1)
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.0(eslint@8.57.1)
