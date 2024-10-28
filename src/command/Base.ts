@@ -11,9 +11,9 @@ export default class Base {
 
     input: string[];
 
-    flags: {[k: string]: any};
+    flags: Record<string, any>;
 
-    constructor(input: string[], flags: {[k: string]: any}) {
+    constructor(input: string[], flags: Record<string, any>) {
         this.input = input;
         this.flags = flags;
 
