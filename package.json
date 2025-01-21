@@ -35,7 +35,7 @@
         "@commitlint/cli": "19.6.1",
         "@commitlint/config-conventional": "19.6.0",
         "@types/fs-extra": "9.0.13",
-        "@types/node": "20.17.10",
+        "@types/node": "22.10.7",
         "@yotsubacy/config": "1.15.8",
         "eslint": "8.57.1",
         "husky": "9.1.7",
