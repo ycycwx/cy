@@ -36,12 +36,12 @@
         "@commitlint/config-conventional": "19.6.0",
         "@types/fs-extra": "9.0.13",
         "@types/node": "20.17.10",
-        "@yotsubacy/config": "1.15.7",
+        "@yotsubacy/config": "1.15.8",
         "eslint": "8.57.1",
         "husky": "9.1.7",
-        "lint-staged": "15.3.0",
+        "lint-staged": "15.4.1",
         "rimraf": "4.4.1",
         "standard-version": "9.5.0",
-        "typescript": "5.7.2"
+        "typescript": "5.7.3"
     }
 }
