@@ -1,6 +1,6 @@
-import {flatConfigs} from '@yotsubacy/config/eslint';
+import config from '@yotsubacy/config/eslint';
 
-export default flatConfigs.config(
+export default config(
     ['node', 'typescript'],
     {
         languageOptions: {
