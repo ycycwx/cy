@@ -1,6 +1,18 @@
 import {flatConfigs} from '@yotsubacy/config/eslint';
 
-export default flatConfigs.build(['node', 'typescript'], {tsconfigRootDir: import.meta.dirname}).concat(
+export default flatConfigs.config(
+    ['node', 'typescript'],
+    {
+        languageOptions: {
+            parserOptions: {
+                projectService: {
+                    allowDefaultProject: ['*.js', '*.cjs', '*.mjs'],
+                    defaultProject: './tsconfig.json',
+                },
+                tsconfigRootDir: import.meta.dirname,
+            },
+        },
+    },
     {
         ignores: ['./lib/**/*', './bin/**/*'],
     },
