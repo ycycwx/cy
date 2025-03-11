@@ -46,8 +46,8 @@ importers:
         specifier: 22.13.9
         version: 22.13.9
       '@yotsubacy/config':
-        specifier: 2.0.2
-        version: 2.0.2(@typescript-eslint/parser@8.26.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
+        specifier: 2.0.5
+        version: 2.0.5(@typescript-eslint/parser@8.26.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)
       eslint:
         specifier: 9.21.0
         version: 9.21.0(jiti@2.4.2)
@@ -839,8 +839,8 @@ packages:
     resolution: {integrity: sha512-2z8JQJWAzPdDd51dRQ/oqIJxe99/hoLIqmf8RMCAJQtYDc535W/Jt2+RTP4bP0aKeBG1F65yjIZuczOXCmbWwg==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@yotsubacy/config@2.0.2':
-    resolution: {integrity: sha512-9mYsU8cLDgo/cYy1sB2Oq14yRJ/htJNEg8DLgeWxFry50sXezejm0p4bhwUJ3Sge91G57PooY35PWdl3oicouQ==}
+  '@yotsubacy/config@2.0.5':
+    resolution: {integrity: sha512-hJAcgTkjQERJxFPehHqlf81LlmJCI7INWVgtp2KUYWssZ9NJWWsjynySSD8DflWzVRU07TTUoNp8ifOfSe3M1w==}
     peerDependencies:
       eslint: ^9.21.0
 
@@ -3920,7 +3920,7 @@ snapshots:
       '@typescript-eslint/types': 8.26.0
       eslint-visitor-keys: 4.2.0
 
-  '@yotsubacy/config@2.0.2(@typescript-eslint/parser@8.26.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)':
+  '@yotsubacy/config@2.0.5(@typescript-eslint/parser@8.26.0(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2))(eslint@9.21.0(jiti@2.4.2))(typescript@5.8.2)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.4.1(eslint@9.21.0(jiti@2.4.2))
       '@eslint/js': 9.21.0
