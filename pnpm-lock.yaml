@@ -46,8 +46,8 @@ importers:
         specifier: 22.15.23
         version: 22.15.23
       '@yotsubacy/config':
-        specifier: 2.0.15
-        version: 2.0.15(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
+        specifier: 2.0.17
+        version: 2.0.17(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)
       eslint:
         specifier: 9.27.0
         version: 9.27.0(jiti@2.4.2)
@@ -945,8 +945,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@yotsubacy/config@2.0.15':
-    resolution: {integrity: sha512-v2b3AUbMGhqSYTHhFLUxWXkmQCkEd4syc1DQycB8CJb3wwtxWZPDkECbRymm497rdNUSUQjbRwrIFpHOqx7LUA==}
+  '@yotsubacy/config@2.0.17':
+    resolution: {integrity: sha512-UQxjj0MKCeu2yaMnWzcOvbs76h3SgFFTZajOdZQLDV4VCyuRgVesC2x+hzpZ6XPpakxe9E5GtTS3ZfaONboXuw==}
     peerDependencies:
       eslint: ^9.22.0
 
@@ -4093,7 +4093,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.7.3':
     optional: true
 
-  '@yotsubacy/config@2.0.15(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
+  '@yotsubacy/config@2.0.17(@typescript-eslint/parser@8.33.0(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3))(eslint@9.27.0(jiti@2.4.2))(typescript@5.8.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.27.0(jiti@2.4.2))
       '@eslint/js': 9.27.0
