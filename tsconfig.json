@@ -8,7 +8,7 @@
         "moduleResolution": "node",
         "sourceMap": true,
         "baseUrl": ".",
-        "verbatimModuleSyntax": true
+        "verbatimModuleSyntax": false
     },
     "include": [
         "src/**/*"
