@@ -28,10 +28,10 @@
     },
     "devDependencies": {
         "@babel/cli": "7.28.3",
-        "@babel/core": "7.28.4",
+        "@babel/core": "7.28.5",
         "@babel/plugin-transform-class-properties": "7.27.1",
-        "@babel/preset-env": "7.28.3",
-        "@babel/preset-typescript": "7.27.1",
+        "@babel/preset-env": "7.28.5",
+        "@babel/preset-typescript": "7.28.5",
         "@commitlint/cli": "20.1.0",
         "@commitlint/config-conventional": "20.0.0",
         "@types/fs-extra": "9.0.13",
