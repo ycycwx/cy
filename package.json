@@ -37,7 +37,7 @@
         "@types/fs-extra": "9.0.13",
         "@types/node": "22.19.1",
         "@yotsubacy/config": "2.3.2",
-        "eslint": "9.37.0",
+        "eslint": "9.39.1",
         "husky": "9.1.7",
         "lint-staged": "16.2.7",
         "rimraf": "6.1.2",
