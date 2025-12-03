@@ -46,8 +46,8 @@ importers:
         specifier: 22.19.1
         version: 22.19.1
       '@yotsubacy/config':
-        specifier: 2.3.2
-        version: 2.3.2(@typescript-eslint/parser@8.47.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
+        specifier: 2.3.4
+        version: 2.3.4(@typescript-eslint/parser@8.47.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)
       eslint:
         specifier: 9.39.1
         version: 9.39.1(jiti@2.6.1)
@@ -1000,8 +1000,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@yotsubacy/config@2.3.2':
-    resolution: {integrity: sha512-BCo8URSFsxJSgF3klUShuyJggPFp/yXv/TbOBpcVL2oK88mY4TjCo00kWsunZGIoncMpnMmbDn4l5s7521y6ug==}
+  '@yotsubacy/config@2.3.4':
+    resolution: {integrity: sha512-cyujV2VA4cPOfv2P1Cr8N5mtOLXsQP1I53URm6Ab19mtl8mN/XBodMZZYV2/5yRSQ3WQXeklFZmAmI29SSg4gQ==}
     peerDependencies:
       eslint: ^9.22.0
 
@@ -4242,7 +4242,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@yotsubacy/config@2.3.2(@typescript-eslint/parser@8.47.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)':
+  '@yotsubacy/config@2.3.4(@typescript-eslint/parser@8.47.0(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3)':
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 4.5.0(eslint@9.39.1(jiti@2.6.1))
       '@eslint/js': 9.39.1
@@ -4987,7 +4987,7 @@ snapshots:
   eslint-plugin-react-hooks@7.0.1(eslint@9.39.1(jiti@2.6.1)):
     dependencies:
       '@babel/core': 7.28.5
-      '@babel/parser': 7.28.4
+      '@babel/parser': 7.28.5
       eslint: 9.39.1(jiti@2.6.1)
       hermes-parser: 0.25.1
       zod: 3.25.76
