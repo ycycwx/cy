@@ -24,7 +24,7 @@
     "dependencies": {
         "cac": "^6.7.14",
         "chalk": "^4.1.2",
-        "fs-extra": "^10.1.0"
+        "fs-extra": "^11.0.0"
     },
     "devDependencies": {
         "@babel/cli": "7.28.6",
@@ -34,7 +34,7 @@
         "@babel/preset-typescript": "7.28.5",
         "@commitlint/cli": "20.4.2",
         "@commitlint/config-conventional": "20.4.2",
-        "@types/fs-extra": "9.0.13",
+        "@types/fs-extra": "11.0.4",
         "@types/node": "22.19.12",
         "@yotsubacy/config": "2.3.5",
         "eslint": "9.39.3",
