@@ -36,7 +36,7 @@
         "@commitlint/config-conventional": "20.5.0",
         "@types/fs-extra": "9.0.13",
         "@types/node": "22.19.16",
-        "@yotsubacy/config": "2.3.5",
+        "@yotsubacy/config": "2.4.0",
         "eslint": "9.39.4",
         "husky": "9.1.7",
         "lint-staged": "16.4.0",
