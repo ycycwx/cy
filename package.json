@@ -42,6 +42,6 @@
         "lint-staged": "16.4.0",
         "rimraf": "6.1.3",
         "standard-version": "9.5.0",
-        "typescript": "5.9.3"
+        "typescript": "6.0.3"
     }
 }
