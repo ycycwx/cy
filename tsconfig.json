@@ -1,16 +1,17 @@
 {
+    "$schema": "https://json.schemastore.org/tsconfig",
     "extends": "@yotsubacy/config/typescript.json",
     "compilerOptions": {
-        "module": "commonjs",
+        "paths": {
+            "src/*": ["./src/*"]
+        },
+        "module": "node16",
         "allowSyntheticDefaultImports": true,
         "target": "es6",
         "noImplicitAny": true,
-        "moduleResolution": "node",
+        "moduleResolution": "node16",
         "sourceMap": true,
-        "baseUrl": ".",
         "verbatimModuleSyntax": false
     },
-    "include": [
-        "src/**/*"
-    ]
+    "include": ["src/**/*"]
 }
