@@ -43,8 +43,8 @@ importers:
         specifier: 9.0.13
         version: 9.0.13
       '@types/node':
-        specifier: 22.20.5
-        version: 22.20.5
+        specifier: 22.20.7
+        version: 22.20.7
       '@yotsubacy/config':
         specifier: 2.4.3
         version: 2.4.3(@typescript-eslint/parser@8.74.0(eslint@9.39.5(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@9.39.5(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3)
@@ -899,8 +899,8 @@ packages:
   '@types/minimist@1.2.5':
     resolution: {integrity: sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==}
 
-  '@types/node@22.20.5':
-    resolution: {integrity: sha512-U2+DNr+wSjpsTS/wZGYHq7GcwfuSmKiKvoPvK22zwTlRhU91yOniN4qRR5KhIjvif7ysw/dz/hKmfDH0Ris4aA==}
+  '@types/node@22.20.7':
+    resolution: {integrity: sha512-F/Mcc4pD3YwXQCG50hb8BjB5RmrOere6hge7n2XHf0V8tpkZOVEjwYv9Ql7n0MpMn8Bv7+q12P9w6UHsBm0Sfw==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -4097,7 +4097,7 @@ snapshots:
 
   '@types/fs-extra@9.0.13':
     dependencies:
-      '@types/node': 22.20.5
+      '@types/node': 22.20.7
 
   '@types/json-schema@7.0.15': {}
 
@@ -4105,7 +4105,7 @@ snapshots:
 
   '@types/minimist@1.2.5': {}
 
-  '@types/node@22.20.5':
+  '@types/node@22.20.7':
     dependencies:
       undici-types: 6.21.0
 
